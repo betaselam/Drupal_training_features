@@ -15,6 +15,13 @@ function contact_us_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function contact_us_views_api() {
+  return array("version" => "3.0");
+}
+
+/**
  * Implements hook_node_info().
  */
 function contact_us_node_info() {
