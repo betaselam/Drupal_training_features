@@ -22,7 +22,8 @@ function contact_us_default_rules_configuration() {
             "message" : "Alert ... new contact form is available for your review.",
             "from" : "contact@site.com"
           }
-        }
+        },
+        { "redirect" : { "url" : "thank_you" } }
       ]
     }
   }');
