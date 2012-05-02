@@ -500,7 +500,10 @@ function contact_us_field_default_fields() {
       ),
       'module' => 'list',
       'settings' => array(
-        'allowed_values' => array(),
+        'allowed_values' => array(
+          1 => 'Inquire',
+          2 => 'Feed back',
+        ),
         'allowed_values_function' => '',
       ),
       'translatable' => '0',
