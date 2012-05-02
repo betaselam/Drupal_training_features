@@ -446,7 +446,7 @@ function contact_us_field_default_fields() {
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
-      'type' => 'text_with_summary',
+      'type' => 'text_long',
     ),
     'field_instance' => array(
       'bundle' => 'contact_us',
@@ -459,7 +459,7 @@ function contact_us_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 8,
+          'weight' => 10,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -473,19 +473,17 @@ function contact_us_field_default_fields() {
       'label' => 'Message',
       'required' => 0,
       'settings' => array(
-        'display_summary' => 0,
-        'text_processing' => '1',
+        'text_processing' => '0',
         'user_register_form' => FALSE,
       ),
       'widget' => array(
         'active' => 1,
         'module' => 'text',
         'settings' => array(
-          'rows' => '20',
-          'summary_rows' => 5,
+          'rows' => '5',
         ),
-        'type' => 'text_textarea_with_summary',
-        'weight' => '26',
+        'type' => 'text_textarea',
+        'weight' => '28',
       ),
     ),
   );
