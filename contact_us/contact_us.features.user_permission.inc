@@ -16,7 +16,7 @@ function contact_us_user_default_permissions() {
     'roles' => array(
       0 => 'CSR',
       1 => 'anonymous user',
-	  2 => 'authenticated user',
+      2 => 'authenticated user',
     ),
     'module' => 'node',
   );
