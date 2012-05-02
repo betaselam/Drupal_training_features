@@ -44,6 +44,7 @@ features[user_role][] = CSR
 features[user_role][] = administrator
 features[variable][] = menu_options_contact_us
 features[variable][] = menu_parent_contact_us
+features[variable][] = node_content_enabled
 features[variable][] = node_options_contact_us
 features[variable][] = node_preview_contact_us
 features[variable][] = node_submitted_contact_us
