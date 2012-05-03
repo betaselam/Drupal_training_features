@@ -5,3 +5,13 @@
  */
 
 include_once 'contact_us.features.inc';
+
+function contact_us_form_contact_us_node_form_alter(&$form) {
+
+	//dsm($form);  // to see form ID
+	
+	$form['actions']['submit']['#value'] = 'Submit';
+	$form['actions']['preview']['#value'] = 'Remove Me';
+	
+	drupal_set_title("Sean's Contact Us Form");	
+}
