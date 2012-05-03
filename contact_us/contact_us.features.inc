@@ -37,5 +37,3 @@ function contact_us_node_info() {
   );
   return $items;
 }
-
-

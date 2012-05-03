@@ -11,7 +11,7 @@ function contact_us_content_defaults() {
   $content = array();
 
   $content['thank_you'] = (object) array(
-    'exported_path' => 'thank_you',
+    'exported_path' => 'content/thank-you',
     'title' => 'Thank you',
     'status' => '1',
     'promote' => '0',
