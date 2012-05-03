@@ -299,7 +299,7 @@ function contact_us_views_default_views() {
   $handler->display->display_options['fields']['nid']['empty_zero'] = 0;
   $handler->display->display_options['fields']['nid']['hide_alter_empty'] = 1;
   $handler->display->display_options['fields']['nid']['link_to_node'] = 0;
-  /* Field: Field: First Name */
+  /* Field: Field: first name */
   $handler->display->display_options['fields']['field_first_name']['id'] = 'field_first_name';
   $handler->display->display_options['fields']['field_first_name']['table'] = 'field_data_field_first_name';
   $handler->display->display_options['fields']['field_first_name']['field'] = 'field_first_name';
@@ -324,7 +324,7 @@ function contact_us_views_default_views() {
   $handler->display->display_options['fields']['field_first_name']['empty_zero'] = 0;
   $handler->display->display_options['fields']['field_first_name']['hide_alter_empty'] = 1;
   $handler->display->display_options['fields']['field_first_name']['field_api_classes'] = 0;
-  /* Field: Field: Last Name */
+  /* Field: Field: last name */
   $handler->display->display_options['fields']['field_last_name']['id'] = 'field_last_name';
   $handler->display->display_options['fields']['field_last_name']['table'] = 'field_data_field_last_name';
   $handler->display->display_options['fields']['field_last_name']['field'] = 'field_last_name';
