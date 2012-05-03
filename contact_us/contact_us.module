@@ -5,3 +5,14 @@
  */
 
 include_once 'contact_us.features.inc';
+
+function contact_us_form_alter(&$form, &$form_state, &$form_id) {
+	
+  //dsm($form);
+
+  $form['actions']['submit']['#value'] = 'Submit';
+  $form['actions']['preview']['#value'] = 'Remove Me';
+  
+  drupal_set_title('');
+  
+}
