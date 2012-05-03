@@ -22,28 +22,7 @@ function contact_us_content_defaults() {
     'comment' => '1',
     'translate' => '0',
     'machine_name' => 'thank_you',
-    'body' => array(
-      'und' => array(
-        0 => array(
-          'value' => 'you\'re welcome',
-          'summary' => '',
-          'format' => 'filtered_html',
-          'safe_value' => '<p>you\'re welcome</p>
-',
-          'safe_summary' => '',
-        ),
-      ),
-    ),
-    'field_subtitle' => array(
-      'und' => array(
-        0 => array(
-          'value' => 'blah',
-          'format' => 'filtered_html',
-          'safe_value' => '<p>blah</p>
-',
-        ),
-      ),
-    ),
+    'body' => array(),
   );
 
 return $content;
