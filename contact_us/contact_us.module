@@ -13,5 +13,5 @@ function contact_us_form_contact_us_node_form_alter(&$form) {
 	$form['actions']['submit']['#value'] = 'Submit';
 	$form['actions']['preview']['#value'] = 'Remove Me';
 	
-	drupal_set_title("Sean's Contact Us Form");	
+	drupal_set_title("Drupal Training Contact Us Form");	
 }
