@@ -1,0 +1,19 @@
+<?php
+
+function contact_us_install(){
+
+}
+
+function contact_us_uninstall(){
+
+}
+
+function contact_us_update_7001(){
+	if($instance = field_read_instance('node','field_message','contact_us')){
+	    field_delete_instance($instance);
+	}
+}
+
+/*function contact_us_update_7002(){
+	
+}*/
